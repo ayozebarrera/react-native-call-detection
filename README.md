@@ -24,6 +24,8 @@ Just Verify that the following changes are present in the corresponding files
 
 -  In `MainApplication.java`
 
+***Notice that you have to change `new CallDetectionManager()` to `new CallDetectionManager(MainApplication.this)` manually***
+
 ``` diff
 + import com.pritesh.calldetection.CallDetectionManager;
 	@Override
